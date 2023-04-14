@@ -55,7 +55,7 @@
 		{"press", press},
 		{NULL,NULL}
 		};
-
+/
 		luaL_register( L, "example", M );
 		return 1;
 	}
